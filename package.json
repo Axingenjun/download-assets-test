@@ -1,18 +1,19 @@
 {
-  "name": "download-assets-test",
-  "version": "1.0.0",
+  "name": "@xingenjun/assets-test",
+  "version": "1.0.2",
   "description": "在线下载资源测试",
   "private": false,
-  "main": "./earthsdk-assets.js",
+  "main": "./earthsdk3-assets.js",
   "files": [
-    "earthsdk-assets.js",
+    "earthsdk3-assets.js",
     "scripts",
     "package.json"
   ],
+  "type": "module",
   "scripts": {
-    "postinstall": "node download.js",
+    "postinstall": "node scripts/download.js",
     "login": "npm login --registry https://registry.npmjs.org",
-    "push": "npm publish --registry https://registry.npmjs.org"
+    "push": "npm publish --registry https://registry.npmjs.org --access public"
   },
   "keywords": [],
   "author": "",
