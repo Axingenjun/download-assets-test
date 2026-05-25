@@ -1,0 +1,20 @@
+{
+  "name": "download-assets-test",
+  "version": "1.0.0",
+  "description": "在线下载资源测试",
+  "private": false,
+  "main": "./earthsdk-assets.js",
+  "files": [
+    "earthsdk-assets.js",
+    "scripts",
+    "package.json"
+  ],
+  "scripts": {
+    "postinstall": "node download.js",
+    "login": "npm login --registry https://registry.npmjs.org",
+    "push": "npm publish --registry https://registry.npmjs.org"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
